@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API with custom camera controls.  The issue arises when attempting to change the camera type (front/rear) while the camera is already active.  The camera preview may freeze or become unresponsive, requiring a full app restart to recover. This is particularly noticeable on Android devices.
